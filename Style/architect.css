@@ -55,7 +55,6 @@
 /* header style */
 /* nav style */
 
-
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -138,6 +137,7 @@ main> section{
 }
 
 
+/* teams related style */
 .teams{
     justify-content: center;
     align-items: center;
@@ -158,12 +158,54 @@ main> section{
 }
 
 
-
 #quick-list{
     font-weight: 500;
 
 }
 
+/* some-facts related style */
+.fact-description{
+    max-width: 540px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+
+}
+
+
+.facts-container{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    
+}
+
+
+.fact-card{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+
+.fact-name{
+    font-size:1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
 
 
 /* media Query */
